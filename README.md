@@ -51,7 +51,7 @@ A comprehensive nutrition tracking application with AI-powered food analysis and
 1. **Clone the repository**
    ```bash
    git clone https://github.com/tharunkumarvk/celestia-main
-   cd fitkit
+   cd celestia-main\celestia-backend-main-functional
    ```
 
 2. **Install dependencies**
@@ -67,7 +67,7 @@ A comprehensive nutrition tracking application with AI-powered food analysis and
 
 4. **Start the application**
    ```bash
-   cd celestia-main\FITKIT-main-main\FITKIT-main>
+   cd celestia-main\celestia-backend-main-functional\celestia-fullyfunctional-backend
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
    ```
 
