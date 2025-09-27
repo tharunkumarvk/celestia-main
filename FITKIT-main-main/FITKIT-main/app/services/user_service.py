@@ -36,7 +36,7 @@ def get_user(db: Session, user_id: int):
     return db.query(User).filter(User.id == user_id).first()
 
 def log_meal(db: Session, user_id: int, analysis_data: Dict, portion_estimates: Dict, nutrition_summary: Dict, recommendations: Dict):
-    """Log a meal for a user with automatic calendar sync"""
+    """Log a meal for a user with automatic calendar sync and notification tracking"""
     try:
         now = datetime.now()
         
@@ -51,6 +51,12 @@ def log_meal(db: Session, user_id: int, analysis_data: Dict, portion_estimates: 
             day_of_week=now.strftime("%A")  # Monday, Tuesday, etc.
         )
         db.add(meal)
+        
+        # Update user's last meal time for reminder tracking
+        user = db.query(User).filter(User.id == user_id).first()
+        if user:
+            user.last_meal_time = now
+        
         db.commit()
         db.refresh(meal)
         
