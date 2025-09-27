@@ -6,7 +6,8 @@ A comprehensive nutrition tracking application with AI-powered food analysis and
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green?style=for-the-badge&logo=fastapi)
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite)
 
-![Uploading Nutre-Vida-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif…]()
+![Nutre-Vida-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ad7c676c-120e-4848-ab09-46ae0c76918c)
+
 
 
 ## 🌟 Features
