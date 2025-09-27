@@ -2,7 +2,6 @@
 
 A comprehensive nutrition tracking application with AI-powered food analysis and intelligent meal recommendations.
 
-![Nutre-Vida Banner](https://img.shields.io/badge/Nutri-Vida-Nutrition%20Tracker-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green?style=for-the-badge&logo=fastapi)
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite)
