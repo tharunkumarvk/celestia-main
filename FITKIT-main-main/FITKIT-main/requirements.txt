@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+python-multipart
+pillow
+google-generativeai>=0.4.0
+python-dotenv
+psycopg2-binary
+google-auth
